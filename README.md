@@ -36,14 +36,6 @@ mix aggregate_task "airline"
 
 the result will be printed on the screen. Please notice that the report task add new files to the output directory without removing anything. So you'll have wrong data.
 
-## What I don't like from my solution
-
-Nearly everywere you'll find hard coded strategies and multiple concerns mixed in single functions. This is something that I really don't like. But I couldn't manage to produce a better solution in the available amount of time with the available knowledge I own regarding Elixir. I could have implemented protocols for sure, and other particular characteristics of Elixir. I think a collectable module would also have been useful. Maybe in the next weeks just for fun, I'm going to do it.
-
-Many functions are not really generic. Have been conceived to magically answer to one task with some particular structure and can hardly been adapted to other situations.
-
-No tests. I started in the normal way by creating some tests that could at first instance validate your requests. But then I just build the solution.
-
 Many thanks,
 Virgilio
 
